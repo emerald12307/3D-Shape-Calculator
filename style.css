@@ -1,0 +1,37 @@
+html {
+  background: url(images/3d-shapes-floating-background-free-vector.jpg);
+  background-size: cover;
+}
+
+body {
+  width: 700px;
+  border: 1px solid;
+  text-align: center;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.9);
+  color: navy;
+  font-weight: bold;
+}
+img {
+  width: 400px;
+  border: solid 1px purple;
+}
+button {
+  color: white;
+  background: lightpink;
+  border-radius: 5px;
+}
+h1 {
+  color: pink;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+input {
+  height: 25px;
+  border-radius: 5px;
+  color: gray;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to 3D Shape Surface Area and Volume Calculator</h1>
+    <p>
+      Choose a Shape: <button id="sphere-btn">Sphere</button>
+      <button id="cube-btn">Cube</button>
+      <button id="rect-prismBtn">Rectangular Prism</button>
+      <button id="squ-pyramidBtn">Square Pyramid</button>
+    </p>
+    <p>
+      <img id="img" src="images/i2cWqg-I9K0DroM9y7LE4Q.jpg" alt="shapes" />
+    </p>
+    <p id="base">Base of Shape: <input id="bas" type="number" /></p>
+    <p id="height">
+      Height of Shape:
+      <input id="hei" type="number" />
+    </p>
+    <p id="length">Length of Shape: <input id="len" type="number" /></p>
+    <p id="width">Width of Shape: <input id="wid" type="number" /></p>
+    <p id="radius">Radius of Sphere: <input id="rad" type="number" /></p>
+    <p id="sh">
+      Slant Height of Shape: <input type="number" id="slant-height" />
+    </p>
+
+    <p id="calc-sphere">
+      <button id="calc-sph-btn">
+        Calculate The Surface Area and Volume of Sphere
+      </button>
+    </p>
+
+    <p id="calc-cube">
+      <button id="calc-cu-btn">
+        Calculate The Surface Area and Volume of Cube
+      </button>
+    </p>
+
+    <p id="calc-rect-pri">
+      <button id="calc-rp-btn">
+        Calculate The Surface Area and Volume of Rectangular Prism
+      </button>
+    </p>
+
+    <p id="calc-squ-pyr">
+      <button id="calc-sp-btn">
+        Calculate The Surface Area and Volume of Square Pyramid
+      </button>
+    </p>
+
+    <p>The Surface Area is <span id="surface-area">---</span> units².</p>
+    <p>The Volume is <span id="volume">---</span> units³.</p>
+    <p><button id="reset-btn">Clear</button></p>
+  </body>
+</html>
